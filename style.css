@@ -5,12 +5,12 @@
     align-items: center;
     align-content: center;
     justify-content: space-between;
-    flex-flow:  row nowrap;
+    flex-flow: row nowrap;
 }
 
 .search {
     border-color: darkblue; /* Цвет границы */
-    border-style: solid 4px;
+    border-style: solid black 4px;
 }
 
 .announcement {
@@ -74,7 +74,7 @@
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -87,7 +87,11 @@
 }
 
 /* Изменение цвета выпадающих ссылок при наведении курсора */
-.dropdown-content a:hover {background-color: #ddd}
+.dropdown-content a:hover {
+    background-color: #ddd
+}
 
 /* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
-.show {display:block;}
+.show {
+    display: block;
+}
