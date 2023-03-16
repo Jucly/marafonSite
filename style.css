@@ -1,0 +1,93 @@
+.header {
+    border-color: red; /* Цвет границы */
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    flex-flow:  row nowrap;
+}
+
+.search {
+    border-color: darkblue; /* Цвет границы */
+    border-style: solid 4px;
+}
+
+.announcement {
+    border-color: #750352; /* Цвет границы */
+    border-style: solid 4px;
+    background-color: #178fe1;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.profile {
+    border-color: black; /* Цвет границы */
+    border-style: solid 4px;
+    background-color: #178fe1;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.fa-search {
+    border-color: darkblue; /* Цвет границы */
+    border-style: solid 4px;
+    background-color: #178fe1;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+/* Кнопка выпадающего списка */
+.dropbtn {
+    border-color: chocolate; /* Цвет границы */
+    border-style: solid 4px;
+    background-color: #178fe1;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* Кнопка выпадающего меню при наведении и фокусировке */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #0573be;
+}
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Ссылки внутри выпадающего списка */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Изменение цвета выпадающих ссылок при наведении курсора */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+.show {display:block;}
