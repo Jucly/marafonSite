@@ -1,64 +1,106 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("Montserrat-SemiBold.ttf");
+
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
 .header {
-    border-color: red; /* Цвет границы */
-    border-style: solid;
     display: flex;
     align-items: center;
     align-content: center;
     justify-content: space-between;
     flex-flow: row nowrap;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 20px;
 }
 
-.search {
-    border-color: darkblue; /* Цвет границы */
-    border-style: solid black 4px;
+
+form.example input[type=text] {
+    width: 510px;
+    padding: 10px;
+    font-size: 14px;
+    border: 0px solid grey;
+    float: left;
+    background: #f1f1f1;
+    border-radius: 10px 0 0 10px;
+}
+
+/* Style the submit button */
+form.example button {
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 14px;
+    /*border: 1px solid grey;*/
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.button_menu {
+
 }
 
 .announcement {
-    border-color: #750352; /* Цвет границы */
-    border-style: solid 4px;
+    width: 200px;
     background-color: #178fe1;
     color: white;
     padding: 10px;
     font-size: 14px;
-
+    border: none;
     cursor: pointer;
     border-radius: 10px;
 }
 
 .profile {
-    border-color: black; /* Цвет границы */
-    border-style: solid 4px;
+    width: 110px;
     background-color: #178fe1;
     color: white;
     padding: 10px;
     font-size: 14px;
-
+    border: none;
     cursor: pointer;
     border-radius: 10px;
 }
 
 .fa-search {
-    border-color: darkblue; /* Цвет границы */
-    border-style: solid 4px;
     background-color: #178fe1;
     color: white;
     padding: 10px;
     font-size: 14px;
-
+    border: none;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 0 10px 10px 0;
 }
 
 
 /* Кнопка выпадающего списка */
 .dropbtn {
-    border-color: chocolate; /* Цвет границы */
-    border-style: solid 4px;
+    width: 140px;
     background-color: #178fe1;
     color: white;
     padding: 10px;
     font-size: 14px;
-
+    border: none;
     cursor: pointer;
     border-radius: 10px;
 }
@@ -94,4 +136,51 @@
 /* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
 .show {
     display: block;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.sub-title {
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 70px;
+    color: #030305;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.category {
+    max-width: 384px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cat-1:hover img {
+    transform: scale(1.1);
+}
+
+.cat-1 img {
+    vertical-align: bottom;
+    transition: all .3s;
+}
+
+.car-title {
+    font-weight: bolder;
+    font-size: 22px;
+    line-height: normal; /*высота строки*/
+    letter-spacing: normal;
+    color: #030305;
+    padding: 15px 0 17px 0;
 }
