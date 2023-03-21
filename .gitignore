@@ -1,2 +1,8 @@
+
 .idea
 .gitignore
+MySQL/*.*
+MySQL/i*
+MySQL/u*
+!MySQL/.gitkeep
+
