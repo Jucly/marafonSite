@@ -1,0 +1,73 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("Montserrat-SemiBold.ttf");
+
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: fixed; /*не дает объекту прокручиваться со страницей вместе*/
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.info {
+    background: #e4f0f8;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+
+
+.title2 {
+
+}
+
+.info2-form {
+    max-width: 405px;
+}
+
+.info2-input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    height: 45px;
+    background: #ffffff;
+    border: 0px solid #5D5D5F;
+    font-size: 16px;
+    color: #000000;
+    outline: none;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.text {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.button {
+    width: 100%;
+    background-color: #178fe1;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
