@@ -1,6 +1,2 @@
-MySQL/*.*
-MySQL/i*
-MySQL/u*
-!MySQL/.gitkeep
-
-Nginx/Logs/*.log
+Nginx/Logs/access.log
+Nginx/Logs/error.logw
