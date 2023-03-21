@@ -2,3 +2,5 @@ MySQL/*.*
 MySQL/i*
 MySQL/u*
 !MySQL/.gitkeep
+
+Nginx/Logs/*.log
