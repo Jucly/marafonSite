@@ -1,8 +1,8 @@
 
 .idea
 .gitignore
-MySQL/*.*
-MySQL/i*
-MySQL/u*
-!MySQL/.gitkeep
+MySQL
+Nginx
+PHP
+*.yml
 
